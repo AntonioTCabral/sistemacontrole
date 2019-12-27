@@ -40,17 +40,17 @@
                         {
                             <form class="form-signin">
                                 <div class="form-label-group">
-                                    @Html.TextBoxFor(m => m.NomeUsuario, new { Type = "email", Class = "form-control", placeholder = "Email address", id = "inputEmail", @required = "required;" })
-                                    @*<input type="email" id="inputEmail" class="form-control" placeholder="Email address"
-                                        required autofocus>*@
+                                    @*@Html.TextBoxFor(m => m.Email_usuario, new { Type = "email", Class = "form-control", placeholder = "Email address", id = "inputEmail", @required = "required;" })*@
+                                    <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address"
+                                        required autofocus>
                                     <label for="inputEmail">Email address</label>
 
                                 </div>
 
                                 <div class="form-label-group">
-                                    @Html.TextBoxFor(m => m.SenhaUsuario, new { Type = "password", Class = "form-control", placeholder = "Password", id = "inputPassword",  @required = "required;" })
-                                    @*<input type="password" id="inputPassword" class="form-control" placeholder="Password"
-                                        required>*@
+                                    @*@Html.TextBoxFor(m => m.SenhaUsuario, new { Type = "password", Class = "form-control", placeholder = "Password", id = "inputPassword",  @required = "required;" })*@
+                                    <input type="password" id="inputPassword" name="senha" class="form-control" placeholder="Password"
+                                        required>
                                     <label for="inputPassword">Password</label>
 
                                 </div>

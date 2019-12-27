@@ -12,8 +12,8 @@ namespace Pratice.Models
 {
     public class UsuarioModel
     {
-        public int id_Usuario { get; set; }
-        public string email_usuario { get; set; }
+        public int Id_Usuario { get; set; }
+        public string Email_usuario { get; set; }
         public string NomeUsuario { get; set; }
         public string SenhaUsuario { get; set; }
         
@@ -26,8 +26,8 @@ namespace Pratice.Models
             string query = "select * from Usuario A where A.email_usuario = " + "'"+email+"'" + " and A.senha =" + "'"+senha+"'";
             SqlConnection conection = new SqlConnection(localDB);
             SqlCommand commander = new SqlCommand(query, conection);
-            
 
+           
 
             try
             {
@@ -99,6 +99,43 @@ namespace Pratice.Models
                         conn.Dispose();
                     }
                 }
+            }
+        }
+
+        public UsuarioModel RetornaDadosUsuario(string email, string senha)
+        {
+            string localDB = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ControleBD;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;";
+            string query = "select * from Usuario A where A.email_usuario = " + "'" + email + "'" + " and A.senha =" + "'" + senha + "'";
+            SqlConnection conection = new SqlConnection(localDB);
+            SqlCommand commander = new SqlCommand(query, conection);
+            
+
+            UsuarioModel cliente = new UsuarioModel();
+
+            try
+            {
+                conection.Open();
+                SqlDataReader leitor = commander.ExecuteReader();
+                while (leitor.Read())
+                {
+                    //passo os valores para o objeto cliente 
+                    //que será retornado 
+                    cliente.Id_Usuario = Convert.ToInt32(leitor["id"].ToString());
+                    cliente.NomeUsuario = leitor["nome_usuario"].ToString();
+                    cliente.Email_usuario = leitor["email_usuario"].ToString();
+                    cliente.SenhaUsuario = leitor["senha"].ToString();
+
+                    
+                }
+                return cliente;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conection.Close();
             }
         }
 

@@ -30,19 +30,20 @@ namespace Pratice.Controllers
         }
 
         [HttpPost]
-        public ActionResult Logar(UsuarioModel usuario)
+        public ActionResult Logar(string email, string senha)
         {
-            if (string.IsNullOrEmpty(usuario.SenhaUsuario) || string.IsNullOrEmpty(usuario.NomeUsuario))
+            if (string.IsNullOrEmpty(senha) || string.IsNullOrEmpty(email))
             {
                 ViewBag.Error = "Usuario ou senha devem se preenchidos.";
                 return View("Index");
             }
             else
             {
-                string validacao = User.ValidaUsuario(usuario.NomeUsuario, usuario.SenhaUsuario);
+                string validacao = User.ValidaUsuario(email, senha);
                 if (validacao == "True")
                 {
-                    HttpContext.Session.SetString("SessionUser", usuario.NomeUsuario);
+                    string nome = User.RetornaDadosUsuario(email, senha).NomeUsuario;
+                    HttpContext.Session.SetString("SessionUser", nome);
                     return RedirectToAction("Index", "Home");
                 }
                 else

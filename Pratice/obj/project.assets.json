@@ -12653,11 +12653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antonio.cabral\\source\\repos\\Pratice\\Pratice\\Pratice.csproj",
+      "projectUniqueName": "C:\\Nova pasta\\sistemacontrole\\Pratice\\Pratice.csproj",
       "projectName": "Pratice",
-      "projectPath": "C:\\Users\\antonio.cabral\\source\\repos\\Pratice\\Pratice\\Pratice.csproj",
+      "projectPath": "C:\\Nova pasta\\sistemacontrole\\Pratice\\Pratice.csproj",
       "packagesPath": "C:\\Users\\antonio.cabral\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\antonio.cabral\\source\\repos\\Pratice\\Pratice\\obj\\",
+      "outputPath": "C:\\Nova pasta\\sistemacontrole\\Pratice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
