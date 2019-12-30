@@ -122,8 +122,8 @@ namespace Pratice.Models
                     //que será retornado 
                     cliente.Id_Usuario = Convert.ToInt32(leitor["id"].ToString());
                     cliente.NomeUsuario = leitor["nome_usuario"].ToString();
-                    cliente.Email_usuario = leitor["email_usuario"].ToString();
-                    cliente.SenhaUsuario = leitor["senha"].ToString();
+                    cliente.Email_usuario = leitor["senha"].ToString();
+                    cliente.SenhaUsuario = leitor["email_usuario"].ToString();
 
                     
                 }
