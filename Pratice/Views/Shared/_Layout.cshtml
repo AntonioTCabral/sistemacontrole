@@ -6,16 +6,13 @@
     <title>@ViewData["Title"] - Pratice</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="~/css/Bootstrap/css/bootstrap.min.css"/>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="~/css/Bootstrap/css/bootstrap.min.css" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/css/Bootstrap/js/bootstrap.min.js"></script>
-   
-    @*<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
-    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>*@
+
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="~/css/style.css">
 
 
@@ -25,7 +22,7 @@
 
     <div class="wrapper" id="wrapper">
         <!-- Sidebar  -->
-        <nav id="sidebar"   >
+        <nav id="sidebar">
             <div class="sidebar-header">
                 <h3>Controle De Estoque</h3>
             </div>
@@ -39,7 +36,7 @@
                             <a href="#">Cadastro Produto</a>
                         </li>
                         <li>
-                            <a href="#">Cadastro Usuario</a>
+                            <a href="@Url.Action("Index","CadastroFuncionario")">Cadastro Usuario</a>
                         </li>
                         <li>
                             <a href="#">Cadastro Fornecedor</a>
@@ -82,7 +79,34 @@
         </nav>
 
         <!-- Page Content  -->
+       <div id="content" >
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Menu</span>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
+                       
+                        <li class="nav-item">
+                            @using (Html.BeginForm("Logout", "Login", FormMethod.Post))
+                            {
+                                <form>
+                                    <input type="submit" class="btn btn-dark" value="Logout" />
+                                </form>
+                            }
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
 
 
@@ -94,27 +118,16 @@
             <hr />
 
         </div>
-        
+       </div>
     </div>
     <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
+     
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
     <environment exclude="Development">
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery"
-                crossorigin="anonymous"
-                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                crossorigin="anonymous"
-                integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
-        </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
+        <script src="~/js/script.js"></script>
     </environment>
 
     @RenderSection("Scripts", required: false)

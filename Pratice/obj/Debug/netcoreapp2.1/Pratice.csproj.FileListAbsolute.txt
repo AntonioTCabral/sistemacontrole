@@ -28,3 +28,37 @@ C:\Users\antonio.cabral\source\repos\Pratice\Pratice\obj\Debug\netcoreapp2.1\Pra
 C:\Users\antonio.cabral\source\repos\Pratice\Pratice\obj\Debug\netcoreapp2.1\Pratice.pdb
 C:\Users\antonio.cabral\source\repos\Pratice\Pratice\obj\Debug\netcoreapp2.1\Pratice.csproj.CopyComplete
 C:\Users\antonio.cabral\source\repos\Pratice\Pratice\obj\Debug\netcoreapp2.1\Pratice.csprojAssemblyReference.cache
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\web.config
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\Pratice.deps.json
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\Pratice.runtimeconfig.json
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\Pratice.runtimeconfig.dev.json
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\Pratice.dll
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\Pratice.pdb
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\Pratice.Views.dll
+C:\Nova pasta\sistemacontrole\Pratice\bin\Debug\netcoreapp2.1\Pratice.Views.pdb
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.csprojAssemblyReference.cache
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.RazorAssemblyInfo.cache
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.RazorAssemblyInfo.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.AssemblyInfoInputs.cache
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.AssemblyInfo.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.TagHelpers.input.cache
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.TagHelpers.output.cache
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.RazorCoreGenerate.cache
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\CadastroFuncionario\Index.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.RazorTargetAssemblyInfo.cache
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.RazorTargetAssemblyInfo.cs
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.Views.pdb
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.dll
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.pdb
+C:\Nova pasta\sistemacontrole\Pratice\obj\Debug\netcoreapp2.1\Pratice.csproj.CopyComplete
